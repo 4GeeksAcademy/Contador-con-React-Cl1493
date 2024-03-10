@@ -22,7 +22,8 @@ function Counter() {
   return (
     <div className="bigCounter">
       <div className="reloj">
-        <img src="../src/img/Flaticon.jpg">
+        <img src="src/img/Flaticon.jpg"></img>
+      </div>    
       <div className="six">{six}</div>
       <div className="five">{five}</div>
       <div className="four">{four}</div>
