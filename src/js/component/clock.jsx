@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Foto from "../../img/Flaticon.jpg";
 
 function Counter() {
   const [counter, setCounter] = useState(0);
@@ -22,7 +22,7 @@ function Counter() {
   return (
     <div className="bigCounter">
       <div className="reloj">
-        <img src="src/img/Flaticon.jpg"></img>
+        <img src={Foto} style={{width: "45px"}}></img>
       </div>    
       <div className="six">{six}</div>
       <div className="five">{five}</div>
